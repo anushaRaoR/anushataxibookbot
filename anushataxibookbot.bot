@@ -1,0 +1,25 @@
+{
+    "name": "anushataxibookbot",
+    "services": [
+        {
+            "type": "endpoint",
+            "name": "development",
+            "endpoint": "http://localhost:3978/api/messages",
+            "appId": "",
+            "appPassword": "",
+            "id": "1"
+        },
+          {
+            "type": "luis",
+            "name": "anushataxibookbot-8a2a",
+            "appId": "7f5cf6f1-0609-4554-8fc7-5632da06fc90",
+            "version": "0.1",
+            "authoringKey": "68e04d4eef76465db492adeeaf933c94",
+            "subscriptionKey": "68e04d4eef76465db492adeeaf933c94",
+            "region": "westus",
+            "id": "158"
+        }
+    ],
+    "padlock": "",
+    "version": "2.0"
+}
