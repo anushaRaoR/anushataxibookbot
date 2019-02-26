@@ -1,0 +1,49 @@
+{
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+      {
+        "type": "Image",
+        "url": "https://aka.ms/bf-welcome-card-image",
+        "size": "stretch"
+      },
+      {
+        "type": "TextBlock",
+        "spacing": "medium",
+        "size": "default",
+        "weight": "bolder",
+        "text": "Anusha's Taxi booking service",
+        "wrap": true,
+        "maxLines": 0
+      },
+      {
+        "type": "TextBlock",
+        "size": "default",
+        "isSubtle": true,
+        "text": "Welcome to Anusha's taxi booking service. Select an option to start your booking!!!",
+        "wrap": true,
+        "maxLines": 0
+      }
+    ],
+    "actions": [
+      {
+        "type" : "messageBack",
+        "title": "Book an Uber",
+        "value": "Uber",
+        "text" : "Uber"
+      },
+      {
+        "type" : "messageBack",
+        "title": "Book a Lyft",
+        "value": "Lyft",
+        "text" : "Lyft"
+      },
+      {
+        "type" : "messageBack",
+        "title": "Book an Ola",
+        "value": "Ola",
+        "text" : "Olar"
+      }
+    ]
+  }
